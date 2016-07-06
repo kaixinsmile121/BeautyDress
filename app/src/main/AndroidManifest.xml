@@ -16,7 +16,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".Activity.GuidePagerActivity" />
-        <activity android:name=".Activity.HomeActivity"></activity>
     </application>
 
 </manifest>

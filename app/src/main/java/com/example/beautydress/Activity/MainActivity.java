@@ -1,14 +1,12 @@
 package com.example.beautydress.Activity;
 
 import android.os.Bundle;
-import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.LinearLayout;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 
 import com.example.beautydress.R;
-import com.example.beautydress.fragment.TabHomeFragment;
 
 public class MainActivity extends AppCompatActivity {
     private RadioGroup rg_guide;
@@ -46,9 +44,7 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(RadioGroup radioGroup, int i) {
                 switch (i){
                     case R.id.rb_home_id:
-                        FragmentTransaction transaction=getSupportFragmentManager().beginTransaction();
-                        transaction.replace(R.id.ll_container_id,new TabHomeFragment())
-                        .commit();
+
                         break;
 
                 }
