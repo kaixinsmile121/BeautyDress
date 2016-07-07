@@ -9,4 +9,18 @@
         <item>童装</item>
         <item>美妆</item>
     </string-array>
+    <string-array name="itemName">
+        <item>我的收货地址</item>
+        <item>我的优惠券</item>
+        <item>我的钱包</item>
+        <item>我的美丽币</item>
+        <item>签到中心</item>
+        <item>我的宝贝</item>
+        <item>我的品牌</item>
+    </string-array>
+    <string-array name="itemName_02">
+        <item>我要加盟</item>
+        <item>关注官方公众号</item>
+        <item>给美丽衣橱打5分</item>
+    </string-array>
 </resources>
