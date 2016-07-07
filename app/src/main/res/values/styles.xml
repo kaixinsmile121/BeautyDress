@@ -6,6 +6,10 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
     </style>
     <!-- 底部导航  radiobutton的样式  -->
     <style name="radiobuttonStyle">
@@ -15,4 +19,5 @@
         <item name="android:button">@null</item>
         <item name="android:gravity">center_horizontal</item>
     </style>
+
 </resources>
