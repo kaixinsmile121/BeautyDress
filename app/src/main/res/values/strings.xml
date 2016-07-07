@@ -23,4 +23,7 @@
         <item>关注官方公众号</item>
         <item>给美丽衣橱打5分</item>
     </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
