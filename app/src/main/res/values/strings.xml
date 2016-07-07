@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">BeautyDress</string>
+    <string name="app_name">美丽衣橱</string>
+    <string-array name="tabsName">
+        <item>推荐</item>
+        <item>女装</item>
+        <item>鞋包</item>
+        <item>男装</item>
+        <item>中年</item>
+        <item>童装</item>
+        <item>美妆</item>
+    </string-array>
 </resources>
