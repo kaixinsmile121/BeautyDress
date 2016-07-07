@@ -1,6 +1,7 @@
 package com.example.beautydress.fragment;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -12,6 +13,7 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
+import com.example.beautydress.Activity.LoginActivity;
 import com.example.beautydress.R;
 
 import java.util.ArrayList;
@@ -65,7 +67,8 @@ public class TabMineFragment extends Fragment {
         me_btn_login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent =new Intent(getActivity(),LoginActivity.class);
+                startActivity(intent);
             }
         });
     }
